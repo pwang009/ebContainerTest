@@ -10,3 +10,7 @@ AWS elastic beanstalk for container
 6.  git commit -a -m "simple changes in app.py"
 7.  eb deploy ebTest01
 8.  aws elasticbeanstalk terminate-environment --environment-name ebTest03
+
+#reference:
+1. https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/docker.html
+2. https://aws.amazon.com/blogs/devops/deploy-a-docker-application-on-aws-elastic-beanstalk-with-gitlab/
