@@ -2,7 +2,7 @@ from flask import Flask
 
 # Print a nice greeting
 def say_hello(username = "World"):
-    return '<p>Hello %s from Beanstalk using Container - V3!</p>\n' % username
+    return '<p>Hello %s from Beanstalk using Container - V4!</p>\n' % username
 
 # Some bits of text for the page
 header_text = '''

@@ -2,5 +2,5 @@ FROM python:3.6
 COPY . /app
 WORKDIR /app
 RUN pip install Flask
-EXPOSE 5000
+EXPOSE 8080
 CMD ["python", "app.py"]
