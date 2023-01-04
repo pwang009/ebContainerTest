@@ -2,7 +2,7 @@ from flask import Flask
 
 # Print a nice greeting
 def say_hello(username = "World"):
-    return '<p>Hello %s from Beanstalk using Container!</p>\n' % username
+    return '<p>Hello %s from Beanstalk using Container - V2!</p>\n' % username
 
 # Some bits of text for the page
 header_text = '''
@@ -10,7 +10,7 @@ header_text = '''
 instructions = '''
     <p><em>Hint</em>: This is a RESTful web service! Append a username
     to the URL (for example: <code>/Thelonious</code>) to say hello to
-    someone specific.</p>\n'''
+    someone specific  - V2.</p>\n'''
 home_link = '<p><a href="/">Back</a></p>\n'
 footer_text = '</body>\n</html>'
 
